@@ -6,13 +6,13 @@ const practiceLogs = [
     },
     {
         week: 2,
-        title: "Planlegging",
-        text: "Vi begynte å planlegge nettsiden for Rosa Velvære AS og så på struktur, innhold og inspirasjon fra andre nettsider."
+        title: "Planlegging av nettside",
+        text: "Vi har begynt å planlegge nettsiden for Rosa Velvære AS, snakket med eier av bedriften og kartlagt hennes ønsker, forventninger og presentert noen av ideene våres."
     },
     {
         week: 3,
         title: "Videre arbeid",
-        text: "Denne teksten er en plassholder og kan byttes ut med det vi faktisk gjør denne uken."
+        text: "Kommer senere."
     }
 ];
 
