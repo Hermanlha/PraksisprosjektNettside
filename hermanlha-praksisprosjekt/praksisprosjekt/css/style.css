@@ -1,12 +1,12 @@
 :root {
-    --blue: #2d5f9a;
-    --blue-dark: #1f426c;
-    --blue-light: #eaf1f8;
-    --grey: #f3f4f6;
-    --text: #20252b;
-    --muted: #66717d;
+    --blue: #4169E1;
+    --blue-dark: #27408B;
+    --blue-light: #eef2ff;
+    --grey: #f0f2f5;
+    --text: #222222;
+    --muted: #555555;
     --white: #ffffff;
-    --border: #dce2e8;
+    --border: #d9dee8;
 }
 
 * {
@@ -36,6 +36,10 @@ main {
     width: min(960px, calc(100% - 40px));
     margin: 0 auto;
 }
+
+/* -------------------------
+   HEADER / MENY
+-------------------------- */
 
 .site-header {
     background: var(--white);
@@ -68,13 +72,18 @@ nav a {
     padding: 8px 13px;
     border-radius: 6px;
     font-weight: 600;
+    transition: 0.2s ease;
 }
 
 nav a:hover,
 nav a.active {
-    color: var(--blue-dark);
+    color: var(--blue);
     background: var(--blue-light);
 }
+
+/* -------------------------
+   FORSIDE / HERO
+-------------------------- */
 
 .hero,
 .page-heading {
@@ -100,7 +109,7 @@ nav a.active {
 }
 
 .eyebrow {
-    color: #dbe9f7;
+    color: #e8edff;
 }
 
 .section-label {
@@ -129,8 +138,12 @@ h2 {
     max-width: 660px;
     margin-bottom: 0;
     font-size: 1.1rem;
-    color: #edf4fb;
+    color: #f2f4ff;
 }
+
+/* -------------------------
+   INNHOLD
+-------------------------- */
 
 .content-section {
     padding: 58px 0 72px;
@@ -141,12 +154,17 @@ h2 {
     border: 1px solid var(--border);
     border-radius: 10px;
     padding: clamp(26px, 5vw, 48px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 .content-card > p:not(.section-label) {
     max-width: 760px;
     color: #3f4851;
 }
+
+/* -------------------------
+   PROSJEKTINFO
+-------------------------- */
 
 .project-info {
     display: grid;
@@ -159,6 +177,7 @@ h2 {
     padding: 18px;
     background: var(--grey);
     border-radius: 8px;
+    border-top: 3px solid var(--blue);
 }
 
 .project-info span {
@@ -172,6 +191,10 @@ h2 {
     font-size: 0.96rem;
 }
 
+/* -------------------------
+   KNAPPER
+-------------------------- */
+
 .button {
     display: inline-block;
     padding: 11px 18px;
@@ -180,11 +203,17 @@ h2 {
     color: var(--white);
     font-weight: 700;
     text-decoration: none;
+    transition: 0.2s ease;
 }
 
 .button:hover {
     background: var(--blue-dark);
+    transform: translateY(-1px);
 }
+
+/* -------------------------
+   LOGG
+-------------------------- */
 
 .log-section {
     background: var(--grey);
@@ -202,7 +231,15 @@ h2 {
     padding: 26px;
     background: var(--white);
     border: 1px solid var(--border);
+    border-left: 5px solid var(--blue);
     border-radius: 9px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.04);
+    transition: 0.2s ease;
+}
+
+.log-entry:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.07);
 }
 
 .week {
@@ -214,12 +251,17 @@ h2 {
 .log-entry h2 {
     margin-bottom: 7px;
     font-size: 1.2rem;
+    color: var(--text);
 }
 
 .log-entry p {
     margin-bottom: 0;
     color: #4d5660;
 }
+
+/* -------------------------
+   FOOTER
+-------------------------- */
 
 footer {
     background: var(--white);
@@ -236,7 +278,12 @@ footer {
     gap: 20px;
 }
 
+/* -------------------------
+   MOBIL
+-------------------------- */
+
 @media (max-width: 700px) {
+
     .container {
         width: min(100% - 28px, 960px);
     }
