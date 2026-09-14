@@ -1,18 +1,23 @@
 const practiceLogs = [
     {
-        week: 1,
-        title: "Oppstart",
+        week: 1, 
+        title: "24.08.26 Oppstart",
         text: "Vi startet praksisperioden og gikk gjennom oppgaven, forventninger og hva vi skal jobbe med gjennom semesteret."
     },
     {
         week: 2,
-        title: "Planlegging av nettside",
+        title: "31.08.26 Planlegging av nettside",
         text: "Vi har begynt å planlegge nettsiden for Rosa Velvære AS, snakket med eier av bedriften og kartlagt hennes ønsker, forventninger og presentert noen av ideene våres."
     },
     {
         week: 3,
-        title: "Videre arbeid",
-        text: "Kommer senere."
+        title: "07.09.26 Figma",
+        text: "Begynte med sketches og teste ut themes for nettsiden."
+    },
+    {
+        week: 4, 
+        title: "14.09.26 Status 1",
+        text: "Lagde egen side for status på praksisnettsiden, jobbet videre med sketches og temaer for nettsiden. Har møte med bedriften for å få tilbakemelding på sketches og nettside utseende. Filme video for status 1."
     }
 ];
 
