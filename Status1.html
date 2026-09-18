@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Første statusoppdatering fra praksisprosjektet hos Rosa Velvære AS.">
+    <title>Status 1 | Praksisprosjekt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .status-intro {
+            max-width: 760px;
+        }
+
+        .status-block {
+            margin-top: 2.5rem;
+        }
+
+        .status-block:first-child {
+            margin-top: 0;
+        }
+
+        .status-block h2 {
+            margin-bottom: 0.75rem;
+        }
+
+        .video-frame {
+            width: 100%;
+            margin-top: 1.25rem;
+            border-radius: 14px;
+            background: #172554;
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.14);
+        }
+
+        .sketch-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1.25rem;
+            margin-top: 1.25rem;
+        }
+
+        .sketch-card {
+            overflow: hidden;
+            margin: 0;
+            border: 1px solid #dbe3ee;
+            border-radius: 14px;
+            background: #ffffff;
+            box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+        }
+
+        .sketch-card img {
+            display: block;
+            width: 100%;
+            object-fit: cover;
+            background: #eef2f7;
+        }
+
+        .sketch-card figcaption {
+            padding: 1rem;
+            color: #334155;
+            font-size: 0.95rem;
+        }
+
+        .next-steps {
+            padding: 1.25rem 1.5rem;
+            border-left: 4px solid #1d4ed8;
+            border-radius: 0 12px 12px 0;
+            background: #eff6ff;
+        }
+
+        @media (max-width: 800px) {
+            .sketch-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container nav">
+            <a class="site-name" href="index.html">Praksisprosjekt</a>
+            <nav aria-label="Hovedmeny">
+                <a href="index.html">Forside</a>
+                <a href="logg.html">Logg</a>
+                <a class="active" href="status1.html" aria-current="page">Status 1</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <div class="container">
+                <p class="eyebrow">Praksis hos Rosa Velvære AS</p>
+                <h1>Status 1</h1>
+                <p class="intro status-intro">
+                    Her viser vi hva vi har jobbet med i den første delen av praksisperioden,
+                    og hvordan arbeidet med den nye nettsiden har utviklet seg så langt.
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container content-card">
+                <div class="status-block">
+                    <p class="section-label">Bedriften</p>
+                    <h2>Video fra Rosa Velvære</h2>
+                    <p>
+                        I videoen forteller vi litt om Rosa Velvære AS, bransjen bedriften jobber i,
+                        arbeidsoppgavene våre og utfordringer prosjektet kan by på.
+                    </p>
+
+                    <video class="video-frame" controls preload="metadata">
+                        <source src="video/bedriftsvideo.mp4" type="video/mp4">
+                        Nettleseren din støtter ikke avspilling av video. Du kan i stedet
+                        <a href="video/bedriftsvideo.mp4">åpne videoen her</a>.
+                    </video>
+                </div>
+
+                <div class="status-block">
+                    <p class="section-label">Arbeidet så langt</p>
+                    <h2>Behov-kartlegging og arbeid med skisser</h2>
+                    <p>
+                        I starten av praksisperioden har vi brukt tid på å bli kjent med Rosa Velvære
+                        og få en bedre forståelse av hva bedriften trenger fra en ny nettside. Vi har
+                        snakket om målgruppe, behandlinger, kurs, booking og hvilket uttrykk nettsiden
+                        bør ha. Dette har gitt oss et bedre grunnlag for å planlegge innholdet og
+                        strukturen på siden.
+                    </p>
+                    <p>
+                        Vi begynte å lage skisser i Figma. Målet vårt med skissene er å finne en
+                        enkel og oversiktlig løsning før vi starter med selve utviklingen. Vi har blant
+                        annet sett på hvordan forsiden kan bygges opp, hvordan behandlingene kan
+                        presenteres, og hvordan brukeren enkelt kan finne frem til booking og kontaktinformasjon.
+                        Hovedformålet er jo å skape et godt inntrykk av bedriften,for potensielle kunder. 
+                    </p>
+                </div>
+
+                <div class="status-block">
+                    <p class="section-label">Figma</p>
+                    <h2>Skisser av nettsiden</h2>
+                    <p>
+                        Skissene under viser noen av ideene vi har jobbet med. De er foreløpige og vil
+                        bli videreutviklet etter tilbakemeldinger fra bedriften.
+                    </p>
+
+                    <div class="sketch-grid">
+                        <figure class="sketch-card">
+                            <img src="bilder/forside.png" alt="Skisse av forsiden til Rosa Velvære">
+                            <figcaption>Forside - første forslag til oppbygning og visuelt uttrykk.</figcaption>
+                        </figure>
+                        <figure class="sketch-card">
+                            <img src="bilder/behandlinger.png" alt="Skisse av siden for behandlinger">
+                            <figcaption>Behandlinger - forslag til hvordan tjenestene kan presenteres.</figcaption>
+                        </figure>
+                        <figure class="sketch-card">
+                            <img src="bilder/info.png" alt="Skisse av Informasjonssiden">
+                            <figcaption>Info</figcaption>
+                        </figure>
+                        <figure class="sketch-card">
+                            <img src="bilder/Om-oss.png" alt="Skisse av Om oss-siden">
+                            <figcaption>Om oss</figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="status-block next-steps">
+                    <h2>Veien videre</h2>
+                    <p>
+                        Neste steg er å få tilbakemeldinger på skissene, gjøre nødvendige endringer og
+                        ferdigstille designet. Deretter starter vi arbeidet med å bygge nettsiden.
+            
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <span>Herman Haraldsen &amp; Hossein Akbar</span>
+            <span>Praksisprosjekt 2026</span>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
