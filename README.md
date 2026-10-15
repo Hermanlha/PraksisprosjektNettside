@@ -5,7 +5,7 @@ Dette er vår nettside for vårt praksisprosjekt hos Rosa Velvære AS.
 
 - `index.html` – forside med oppgavebeskrivelse
 - `logg.html` – ukeslogg
-
+- `status1.html` – Første innlevering
 ## GitHub Pages
 
 Legg innholdet i repoet `praksisprosjekt` og aktiver GitHub Pages fra hovedgrenen. Adressen blir da:
