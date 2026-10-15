@@ -18,6 +18,11 @@ const practiceLogs = [
         week: 4, 
         title: "14.09.26 Status 1",
         text: "Lagde egen side for status på praksisnettsiden, jobbet videre med sketches og temaer for nettsiden. Har møte med bedriften for å få tilbakemelding på sketches og nettside utseende. Filme video for status 1."
+    },
+    {
+        week: 5,
+        title: "15.10.26 Status 2",
+        text: "Denne uken jobbet vi videre med nettsiden for Rosa VelvÃ¦re AS. Vi brukte tilbakemeldingene fra bedriften til Ã¥ forbedre designet og planla hva vi skulle jobbe videre med."
     }
 ];
 
