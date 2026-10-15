@@ -21,9 +21,24 @@ const practiceLogs = [
     },
     {
         week: 5,
-        title: "15.10.26 Status 2",
-        text: "Denne uken jobbet vi videre med nettsiden for Rosa VelvÃ¦re AS. Vi brukte tilbakemeldingene fra bedriften til Ã¥ forbedre designet og planla hva vi skulle jobbe videre med."
-    }
+        title: "24.09.26 Status 1 fortsettelse",
+        text: "Forbredte presentasjon for status 1 og hadde foredrag på skolen."
+    },
+    {
+        week: 6,
+        title: "28.09.26 Ferie",
+        text: "Høstferie denne uka, jobbet litt hver for oss rundt ideer og temaer for nettsiden. Laget en plan for hva vi skal gjøre videre med nettsiden."
+    },
+    {
+        week: 7,
+        title: "05.10.26 Oppstart med nettside",
+        text: "Begynte å lage nettsiden, brukte litt tid på å komme i gang, men fikk laget en enkel side med header, footer og en enkel forside. Neste uke skal vi fortsette, med fokus på behandlingssiden og status 2."
+    },
+    {
+        week: 8,
+        title: "14.10.26 Status 2",
+        text: "Jobbet videre med behanddlingssiden og oppdatering av praksisnettsiden. Ferdigstilling av status 2"
+    },
 ];
 
 const logContainer = document.getElementById("practiceLog");

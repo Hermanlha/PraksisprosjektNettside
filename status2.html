@@ -1,0 +1,259 @@
+
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Andre statusoppdatering fra praksisprosjektet hos Rosa Velvære AS.">
+    <title>Status 2 | Praksisprosjekt</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <style>
+        .status-intro {
+            max-width: 760px;
+        }
+
+        .status-block {
+            margin-top: 2.5rem;
+        }
+
+        .status-block:first-child {
+            margin-top: 0;
+        }
+
+        .status-block h2 {
+            margin-bottom: 0.75rem;
+        }
+
+        .video-frame {
+            display: block;
+            width: 100%;
+            margin-top: 1.25rem;
+            border-radius: 14px;
+            background: #172554;
+            box-shadow: 0 12px 30px rgba(15, 23, 42, 0.14);
+        }
+
+        .sketch-grid {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(0, 1fr));
+            gap: 1.25rem;
+            margin-top: 1.25rem;
+        }
+
+        .sketch-card {
+            overflow: hidden;
+            margin: 0;
+            border: 1px solid #dbe3ee;
+            border-radius: 14px;
+            background: #ffffff;
+            box-shadow: 0 8px 22px rgba(15, 23, 42, 0.08);
+        }
+
+        .sketch-card img {
+            display: block;
+            width: 100%;
+            height: auto;
+            background: #eef2f7;
+        }
+
+        .sketch-card figcaption {
+            padding: 1rem;
+            color: #334155;
+            font-size: 0.95rem;
+        }
+
+        .next-steps {
+            padding: 1.25rem 1.5rem;
+            border-left: 4px solid #1d4ed8;
+            border-radius: 0 12px 12px 0;
+            background: #eff6ff;
+        }
+
+        @media (max-width: 800px) {
+            .sketch-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container nav">
+            <a class="site-name" href="index.html">Praksisprosjekt</a>
+
+            <nav aria-label="Hovedmeny">
+                <a href="index.html">Forside</a>
+                <a href="logg.html">Logg</a>
+                <a href="status1.html">Status 1</a>
+                <a class="active" href="status2.html" aria-current="page">Status 2</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-heading">
+            <div class="container">
+                <p class="eyebrow">Praksis hos Rosa Velvære AS</p>
+                <h1>Status 2</h1>
+
+                <p class="intro status-intro">
+                    Siden forrige statusoppdatering har vi gått fra
+                    planlegging og design til utvikling av nettsiden.
+                    Her viser vi hva vi har jobbet med så langt.
+                </p>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <div class="container content-card">
+
+                <!-- VIDEO -->
+                <div class="status-block">
+                    <p class="section-label">Statusoppdatering</p>
+                    <h2>Video – Utviklingen av nettsiden</h2>
+
+                    <p>
+                        I videoen viser vi frem arbeidet vårt siden
+                        Status 1. Vi går gjennom utviklingen av nettsiden,
+                        noen av løsningene vi har valgt og utfordringer
+                        vi har møtt underveis.
+                    </p>
+
+                    <video class="video-frame" controls preload="metadata">
+                        <source src="Video/status2.mp4" type="video/mp4">
+                        Nettleseren støtter ikke videoavspilling.
+                    </video>
+                </div>
+
+                <!-- ARBEIDSOPPGAVER -->
+                <div class="status-block">
+                    <p class="section-label">Arbeidet siden Status 1</p>
+                    <h2>Fra skisser til nettside</h2>
+
+                    <p>
+                        Siden forrige statusoppdatering har vi startet
+                        utviklingen av nettsiden for Rosa Velvære.
+                        Vi har tatt utgangspunkt i skissene vi lagde
+                        i Figma og begynt å gjøre dem om til en
+                        fungerende nettside ved hjelp av HTML,
+                        CSS og JavaScript.
+                    </p>
+
+                    <p>
+                        Vi har opprettet fire sider: forside,
+                        behandlinger, info og om oss. Foreløpig
+                        har vi prioritert behandlingssiden, hvor
+                        vi har jobbet med kategorisering av
+                        behandlinger, priser, bilder og bookingknapper.
+                        Målet har vært å gjøre det enkelt for kundene
+                        å finne informasjonen de trenger.
+                    </p>
+                </div>
+
+                <!-- UTFORDRINGER -->
+                <div class="status-block">
+                    <p class="section-label">Erfaringer og utfordringer</p>
+                    <h2>Utfordringer underveis</h2>
+
+                    <p>
+                        En av utfordringene har vært å overføre
+                        designet fra Figma til kode. Selv om vi
+                        hadde skisser å ta utgangspunkt i, har
+                        vi måttet gjøre flere justeringer underveis.
+                        Dette gjelder spesielt plassering av
+                        elementer, navigasjon og hvordan
+                        behandlingene skal presenteres.
+                    </p>
+
+                    <p>
+                        Vi har også erfart hvor viktig det er
+                        å tenke på brukervennlighet, samtidig
+                        som nettsiden skal ha et uttrykk som
+                        passer til bedriften.
+                    </p>
+                </div>
+
+                <!-- BILDER -->
+                <div class="status-block">
+                    <p class="section-label">Utviklingsarbeidet</p>
+                    <h2>Bilder av nettsiden</h2>
+
+                    <p>
+                        Bildene under viser hvordan nettsiden
+                        ser ut på dette stadiet av utviklingen.
+                        Vi har foreløpig jobbet mest med
+                        behandlingssiden, mens de andre sidene
+                        skal videreutvikles.
+                    </p>
+
+                    <div class="sketch-grid">
+
+                        <figure class="sketch-card">
+                            <img
+                                src="Bilder/status2-forside.png"
+                                alt="Forsiden til Rosa Velvære">
+                            <figcaption>
+                                Forsiden til nettsiden
+                            </figcaption>
+                        </figure>
+
+                        <figure class="sketch-card">
+                            <img
+                                src="Bilder/status2-behandlinger.png"
+                                alt="Oversikt over behandlinger">
+                            <figcaption>
+                                Oversikt over behandlingskategoriene
+                            </figcaption>
+                        </figure>
+
+                        <figure class="sketch-card">
+                            <img
+                                src="Bilder/status2-priser.png"
+                                alt="Behandlinger og priser">
+                            <figcaption>
+                                Presentasjon av behandlinger og priser
+                            </figcaption>
+                        </figure>
+
+                        <figure class="sketch-card">
+                            <img
+                                src="Bilder/status2-info.png"
+                                alt="Utvikling av nettsiden i VS Code">
+                            <figcaption>
+                                Side med praktisk info til kunden
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+
+                <!-- VEIEN VIDERE -->
+                <div class="status-block next-steps">
+                    <h2>Veien videre</h2>
+
+                    <p>
+                        Fremover skal vi fortsette arbeidet med
+                        behandlingssiden og videreutvikle de
+                        resterende sidene. Vi skal også jobbe
+                        med mobiltilpasning og testing av nettsiden,
+                        slik at den fungerer godt på ulike enheter
+                        før den ferdigstilles.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <span>Herman Haraldsen &amp; Hossein Akbar</span>
+            <span>Praksisprosjekt 2026</span>
+        </div>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
